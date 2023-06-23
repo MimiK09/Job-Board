@@ -7,7 +7,7 @@ const Job = (props) => {
 
 			</h3>
 			<p>
-				{props.contractType} {props.country} {props.city}
+				{props.contractType} - {props.country} - {props.city}
 			</p>
 
 		</div>
