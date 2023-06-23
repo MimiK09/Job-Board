@@ -1,33 +1,66 @@
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  height: 50px;
-  background-color: rgb(37, 37, 37);
-
-}
-h1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-size:56px;
-  font-weight: bold;
-  color:white;
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	background-color: rgb(37, 37, 37);
 }
 
-footer{
-  height: 30px;
-  background-color: grey;
-
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 56px;
+	font-weight: bold;
+	color: white;
 }
 
-footer > *{
-  display: flex;
-  justify-content: center;
+footer {
+	height: 30px;
+	background-color: grey;
 }
 
-span{
-  font-weight:900;
-  color: blue;
+footer > * {
+	display: flex;
+	justify-content: center;
+}
+
+span {
+	font-weight: 900;
+	color: blue;
+}
+.caseJob {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.caseJob > * {
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.red {
+	border: 3px solid red;
+}
+
+.blue {
+	border: 3px solid blue;
+}
+
+.pink {
+	border: 3px solid pink;
+}
+
+.green {
+	border: 3px solid green;
+}
+
+.yellow {
+	border: 3px solid yellow;
 }
